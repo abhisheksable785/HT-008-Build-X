@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:waste_management/common_widgets/background_image_wrapper.dart';
 
+
+import '../../common_widgets/background_image_wrapper.dart';
 import '../waste_pickup_schedule/waste_pickup_schedule_details.dart';
-
 
 class AcceptedPickups extends StatelessWidget {
   const AcceptedPickups({Key? key}) : super(key: key);
